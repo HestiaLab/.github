@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="HestiaLab">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0e2a"/>
+      <stop offset="45%" stop-color="#1a1a44"/>
+      <stop offset="80%" stop-color="#2a2450"/>
+      <stop offset="100%" stop-color="#3a2a5e"/>
+    </linearGradient>
+    <linearGradient id="flameOuter" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#c94f3a"/>
+      <stop offset="50%" stop-color="#e8a04b"/>
+      <stop offset="100%" stop-color="#ffd478"/>
+    </linearGradient>
+    <linearGradient id="flameInner" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#e8a04b"/>
+      <stop offset="100%" stop-color="#fff8d8"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="60%" stop-color="#ffd478" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#ffd478" stop-opacity="0.45"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff2c8" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ffd478" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffd478" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- 魔法夜空背景 -->
+  <rect width="1200" height="400" fill="url(#sky)"/>
+
+  <!-- 月亮（右上） -->
+  <circle cx="1060" cy="86" r="70" fill="url(#moonGlow)"/>
+  <circle cx="1060" cy="86" r="34" fill="#fff2c8"/>
+  <circle cx="1074" cy="76" r="30" fill="url(#sky)"/>
+
+  <!-- 星空 -->
+  <g fill="#ffffff">
+    <circle cx="90" cy="60" r="1.6" opacity="0.9"/>
+    <circle cx="220" cy="40" r="1.1" opacity="0.6"/>
+    <circle cx="420" cy="30" r="1.5" opacity="0.8"/>
+    <circle cx="610" cy="52" r="1.2" opacity="0.7"/>
+    <circle cx="760" cy="34" r="1.7" opacity="0.9"/>
+    <circle cx="920" cy="58" r="1.0" opacity="0.5"/>
+    <circle cx="1150" cy="40" r="1.4" opacity="0.8"/>
+    <circle cx="160" cy="120" r="1.0" opacity="0.5"/>
+    <circle cx="540" cy="110" r="1.3" opacity="0.7"/>
+    <circle cx="700" cy="140" r="1.1" opacity="0.6"/>
+    <circle cx="980" cy="150" r="1.5" opacity="0.8"/>
+    <circle cx="1130" cy="130" r="1.0" opacity="0.5"/>
+    <circle cx="330" cy="90" r="0.9" opacity="0.5"/>
+    <circle cx="850" cy="90" r="1.2" opacity="0.6"/>
+  </g>
+
+  <!-- 魔法光点（漂浮） -->
+  <g fill="#f8d478">
+    <circle cx="640" cy="150" r="2.2" opacity="0.8"/>
+    <circle cx="690" cy="210" r="1.6" opacity="0.6"/>
+    <circle cx="560" cy="190" r="1.3" opacity="0.5"/>
+    <circle cx="800" cy="230" r="1.8" opacity="0.7"/>
+    <circle cx="880" cy="190" r="1.4" opacity="0.5"/>
+    <circle cx="740" cy="120" r="1.2" opacity="0.6"/>
+  </g>
+  <g fill="#b8a0e0">
+    <circle cx="600" cy="130" r="1.5" opacity="0.6"/>
+    <circle cx="720" cy="180" r="1.2" opacity="0.5"/>
+    <circle cx="820" cy="160" r="1.6" opacity="0.6"/>
+    <circle cx="950" cy="200" r="1.3" opacity="0.5"/>
+  </g>
+
+  <!-- 女神光环 -->
+  <circle cx="300" cy="112" r="62" fill="url(#halo)"/>
+  <circle cx="300" cy="112" r="46" fill="none" stroke="#ffd478" stroke-width="1.4" opacity="0.5"/>
+
+  <!-- 魔法女神剪影（面向右，长发飘逸，双手托举火焰） -->
+  <g fill="#120c28">
+    <!-- 长发（向后飘的多股发丝） -->
+    <path d="M 300 68
+             C 270 66, 240 76, 216 96
+             C 192 116, 176 144, 168 176
+             C 160 208, 160 240, 168 268
+             C 174 290, 186 306, 202 316
+             C 190 300, 182 278, 180 254
+             C 178 228, 182 200, 192 176
+             C 202 150, 218 128, 240 112
+             C 258 98, 280 88, 300 84 Z"/>
+    <!-- 头部侧影 -->
+    <path d="M 300 68
+             C 312 64, 324 66, 332 76
+             C 338 84, 340 92, 338 100
+             C 336 107, 335 113, 338 119
+             C 341 124, 338 128, 334 130
+             C 331 132, 329 135, 331 139
+             C 333 143, 334 147, 332 151
+             C 330 155, 328 158, 330 162
+             C 332 166, 330 170, 326 174
+             C 320 180, 312 184, 306 190
+             C 300 196, 298 202, 300 210
+             C 288 200, 280 186, 278 168
+             C 276 150, 280 130, 288 112
+             C 294 96, 298 80, 300 68 Z"/>
+    <!-- 颈与肩 -->
+    <path d="M 300 210
+             C 304 216, 310 222, 320 228
+             C 334 236, 352 240, 368 236
+             C 382 232, 392 224, 398 212
+             C 402 202, 402 190, 400 178
+             C 398 166, 392 158, 384 154
+             C 390 160, 394 170, 394 182
+             C 394 196, 388 208, 378 214
+             C 366 221, 350 220, 338 214
+             C 326 208, 312 200, 304 190
+             C 300 196, 298 202, 300 210 Z"/>
+  </g>
+
+  <!-- 炉火（托举在女神手心之上） -->
+  <g>
+    <path d="M 392 150
+             C 408 128, 418 110, 418 92
+             C 418 74, 410 60, 392 58
+             C 380 60, 372 72, 374 84
+             C 366 82, 360 86, 360 94
+             C 360 104, 368 112, 378 114
+             C 376 122, 380 130, 388 134
+             C 388 140, 390 146, 392 150 Z"
+          fill="url(#flameOuter)"/>
+    <path d="M 396 130
+             C 404 118, 408 106, 406 96
+             C 404 88, 400 82, 396 80
+             C 390 86, 388 96, 390 104
+             C 390 112, 392 120, 396 130 Z"
+          fill="url(#flameInner)"/>
+    <!-- 火星 -->
+    <circle cx="382" cy="64" r="2.0" fill="#ffd478" opacity="0.9"/>
+    <circle cx="408" cy="70" r="1.4" fill="#ffd478" opacity="0.7"/>
+    <circle cx="398" cy="52" r="1.6" fill="#fff8d8" opacity="0.8"/>
+  </g>
+
+  <!-- 底部魔法山峦剪影 -->
+  <g fill="#0a0718">
+    <path d="M 0 400 L 0 350
+             C 60 330, 120 344, 180 336
+             C 240 328, 300 346, 360 340
+             C 420 334, 480 348, 540 342
+             C 600 336, 660 350, 720 344
+             C 780 338, 840 352, 900 346
+             C 960 340, 1020 354, 1080 348
+             C 1140 342, 1170 348, 1200 344
+             L 1200 400 Z"/>
+  </g>
+
+  <!-- 标题 -->
+  <text x="660" y="238" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="64" letter-spacing="6" fill="#f0cf7c" font-weight="bold">HestiaLab</text>
+  <text x="660" y="278" text-anchor="middle" font-family="Georgia, 'Palatino Linotype', serif" font-size="20" letter-spacing="3" fill="#c8b0e8" font-style="italic">a magical hearth for every project</text>
+</svg>
