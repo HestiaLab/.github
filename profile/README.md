@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/HestiaLab/.github/main/assets/hestialab-banner.svg" alt="HestiaLab — a magical hearth for every project" width="100%"/>
+<img src="https://raw.githubusercontent.com/HestiaLab/.github/main/assets/hestialab-banner.svg" alt="HestiaLab" width="100%"/>
 
 # HestiaLab
-
-**A magical hearth for every project.**
 
 <div>
 <a href="https://github.com/HestiaLab"><img src="https://img.shields.io/badge/English-EN-blue?style=flat-square" alt="English"/></a>
@@ -21,11 +19,11 @@ Named after **Hestia**, the Greek goddess of the hearth, HestiaLab is a personal
 
 | | Project | Description | Status |
 |---|---|---|---|
-| 🧭 | [**Atlas**](https://github.com/HestiaLab/Atlas) | Blazor dockable workspace component library: tool panels, editor tabs, split views, drag-and-drop, and layout persistence | 🔒 private |
-| 🧩 | [**Astrea**](https://github.com/HestiaLab/Astrea) | A collection of reusable components for Blazor applications | 🔒 private |
-| ✏️ | [**Penelopa**](https://github.com/HestiaLab/Penelopa) | Blazor WASM primitive alignment editor consuming Atlas.Blazor (dockable workspace) | 🌍 public |
-| 📄 | [**DbcView**](https://github.com/HestiaLab/DbcView) | A dbc file editor | 🌍 public |
-| 📋 | [**CollabBoard**](https://github.com/HestiaLab/CollabBoard) | A Collaborative Board using Vue3 + Redis + ASP.NET Core API + MySQL | 🌍 public |
+| 🧭 | [**Atlas**](https://github.com/HestiaLab/Atlas) | Blazor dockable workspace component library: tool panels, editor tabs, split views, drag-and-drop, and layout persistence | private |
+| 🧩 | [**Astrea**](https://github.com/HestiaLab/Astrea) | A collection of reusable components for Blazor applications | private |
+| ✏️ | [**Penelopa**](https://github.com/HestiaLab/Penelopa) | Blazor WASM primitive alignment editor consuming Atlas.Blazor (dockable workspace) | public |
+| 📄 | [**DbcView**](https://github.com/HestiaLab/DbcView) | A dbc file editor | public |
+| 📋 | [**CollabBoard**](https://github.com/HestiaLab/CollabBoard) | A Collaborative Board using Vue3 + Redis + ASP.NET Core API + MySQL | public |
 
 ## 📊 Board
 
