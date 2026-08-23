@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400" role="img" aria-label="HestiaLab">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#e63946"/>
+      <stop offset="55%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#ffd166"/>
+    </linearGradient>
+    <linearGradient id="innerFlame" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#f4a261"/>
+      <stop offset="100%" stop-color="#fff3cd"/>
+    </linearGradient>
+  </defs>
+
+  <!-- 背景圆 -->
+  <rect width="400" height="400" rx="72" fill="url(#bg)"/>
+  <circle cx="200" cy="200" r="168" fill="none" stroke="#f4a261" stroke-width="2" opacity="0.25"/>
+
+  <!-- 希腊柱式基座（炉灶） -->
+  <path d="M120 250 L280 250 L270 268 L130 268 Z" fill="#c9a66b" opacity="0.85"/>
+  <rect x="136" y="268" width="128" height="10" rx="2" fill="#a8824f" opacity="0.85"/>
+  <path d="M146 278 L150 310 L250 310 L254 278 Z" fill="#c9a66b" opacity="0.6"/>
+
+  <!-- 炉火 -->
+  <path d="M200 80
+           C 232 122, 258 148, 258 178
+           C 258 208, 234 230, 200 230
+           C 166 230, 142 208, 142 178
+           C 142 148, 168 122, 200 80 Z"
+        fill="url(#flame)"/>
+  <path d="M200 132
+           C 216 156, 228 170, 228 184
+           C 228 200, 214 210, 200 210
+           C 186 210, 172 200, 172 184
+           C 172 170, 184 156, 200 132 Z"
+        fill="url(#innerFlame)"/>
+
+  <!-- 组织名 -->
+  <text x="200" y="356" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="3" fill="#ffd166" font-weight="bold">HestiaLab</text>
+</svg>

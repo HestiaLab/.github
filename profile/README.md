@@ -1,4 +1,18 @@
-# HestiaLab
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HestiaLab/.github/main/assets/hestialab-logo.svg" width="180" alt="HestiaLab"/>
+</p>
+
+<h1 align="center">HestiaLab</h1>
+
+<p align="center">
+  <a href="#english">English</a> · <a href="#中文">中文</a>
+</p>
+
+---
+
+<a name="english"></a>
+
+## English
 
 A personal organization for component libraries, developer tools, and products — named after **Hestia**, the Greek goddess of the hearth and home, where every project finds a place to grow.
 
@@ -14,13 +28,15 @@ A personal organization for component libraries, developer tools, and products �
 
 ## Board
 
-- [项目总看板](https://github.com/orgs/HestiaLab/projects/2) — cross-repository task board (Status / Repository / Priority views)
+- [项目总看板](https://github.com/orgs/HestiaLab/projects/2) — cross-repository task board (Status / Repository / Priority / Category views)
 
 ## License
 
 All public projects are MIT licensed unless stated otherwise in each repository.
 
 ---
+
+<a name="中文"></a>
 
 ## 中文
 
@@ -38,7 +54,7 @@ All public projects are MIT licensed unless stated otherwise in each repository.
 
 ## 看板
 
-- [项目总看板](https://github.com/orgs/HestiaLab/projects/2) — 跨仓库任务看板（状态 / 仓库 / 优先级 视图）
+- [项目总看板](https://github.com/orgs/HestiaLab/projects/2) — 跨仓库任务看板（状态 / 仓库 / 优先级 / 分类 视图）
 
 ## 许可证
 
