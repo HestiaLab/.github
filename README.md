@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/HestiaLab/.github/main/assets/hestialab-banner.svg" alt="HestiaLab" width="100%"/>
+<img src="https://raw.githubusercontent.com/HestiaLab/.github/main/assets/hestialab-banner.png" alt="HestiaLab" width="100%"/>
 
 # HestiaLab
 
