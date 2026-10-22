@@ -5,23 +5,19 @@
 # HestiaLab
 
 <div>
-<a href="https://github.com/HestiaLab/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/English-EN-blue?style=flat-square" alt="English"/></a>
-<a href="https://github.com/HestiaLab/.github/blob/main/README.md"><img src="https://img.shields.io/badge/中文-简体-orange?style=flat-square" alt="简体中文"/></a>
+<a href="https://github.com/HestiaLab/.github/blob/main/README.md"><img src="https://img.shields.io/badge/English-EN-blue?style=flat-square" alt="English"/></a>
+<a href="https://github.com/HestiaLab/.github/blob/main/profile/README.md"><img src="https://img.shields.io/badge/中文-简体-orange?style=flat-square" alt="简体中文"/></a>
 </div>
 
 </div>
 
 ---
 
-以希腊灶神与家神 **赫斯提亚（Hestia）** 命名，HestiaLab 是一个汇聚组件库、开发者工具与产品的个人组织——每个项目在此都有归处、皆被守护。
+Named after **Hestia**, the Greek goddess of the hearth, HestiaLab is a personal organization for component libraries, developer tools, and products — a place where every project finds warmth and room to grow.
 
-## ✨ 项目
+## ✨ Projects
 
-[🧩 Blazor 组件库](#blazor-libs) · [🖥️ 应用](#apps) · [⚙️ C 工具链与桌面程序](#c-toolchain)
-
-<a name="blazor-libs"></a>
-
-### 🧩 Blazor 组件库
+### 🧩 Blazor Component Libraries
 
 <table>
 <tr>
@@ -29,7 +25,7 @@
 
 #### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas) 🔒
 
-Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割视图、拖拽与布局持久化
+Blazor dockable workspace component library: tool panels, editor tabs, split views, drag-and-drop, and layout persistence
 
 ![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
@@ -40,7 +36,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 
 #### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea) 🔒
 
-面向 Blazor 应用的可复用组件集合
+A collection of reusable components for Blazor applications
 
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
@@ -50,9 +46,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 </tr>
 </table>
 
-<a name="apps"></a>
-
-### 🖥️ 应用
+### 🖥️ Applications
 
 <table>
 <tr>
@@ -60,7 +54,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 
 #### ✏️ [**Penelopa**](https://github.com/HestiaLab/Penelopa)
 
-消费 Atlas.Blazor 的 Blazor WASM 图元对齐编辑器
+Blazor WASM primitive alignment editor built on Atlas.Blazor
 
 ![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
@@ -71,7 +65,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 
 #### 📄 [**DbcView**](https://github.com/HestiaLab/DbcView)
 
-DBC 文件编辑器
+DBC file editor
 
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
@@ -85,7 +79,7 @@ DBC 文件编辑器
 
 #### 📋 [**CollabBoard**](https://github.com/HestiaLab/CollabBoard)
 
-基于 Vue 3 + Redis + ASP.NET Core + MySQL 的协作看板
+Collaborative board built with Vue 3, Redis, ASP.NET Core and MySQL
 
 ![Vue 3](https://img.shields.io/badge/-Vue%203-4FC08D?style=flat-square)
 ![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square)
@@ -100,9 +94,7 @@ DBC 文件编辑器
 </tr>
 </table>
 
-<a name="c-toolchain"></a>
-
-### ⚙️ C 工具链与桌面程序
+### ⚙️ C Toolchain & Desktop Apps
 
 <table>
 <tr>
@@ -110,7 +102,7 @@ DBC 文件编辑器
 
 #### 📐 [**c-project-standard**](https://github.com/HestiaLab/c-project-standard)
 
-C 项目模板，以及模板自身的基础设施
+C project template plus the infrastructure that maintains the template itself
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
@@ -121,7 +113,7 @@ C 项目模板，以及模板自身的基础设施
 
 #### 📏 [**cloc**](https://github.com/HestiaLab/cloc)
 
-统计项目目录源码行数的 C11 命令行工具
+C11 command-line tool that counts source lines across project directories
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
@@ -134,7 +126,7 @@ C 项目模板，以及模板自身的基础设施
 
 #### 🔢 [**calc-expr**](https://github.com/HestiaLab/calc-expr)
 
-C 语言实现的表达式计算器
+Expression calculator written in C
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
@@ -145,7 +137,7 @@ C 语言实现的表达式计算器
 
 #### 📡 [**token-probe**](https://github.com/HestiaLab/token-probe)
 
-探测 AI 厂商 API 剩余额度、周期花费与配额的 C11 库与命令行工具
+C11 library and CLI that probes AI provider API quotas, period spend and remaining credit
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
@@ -158,7 +150,7 @@ C 语言实现的表达式计算器
 
 #### 🎙️ [**wechat-voice-export**](https://github.com/HestiaLab/wechat-voice-export)
 
-将 WeChat 4.x 语音消息以只读内存捕获方式导出为 WAV/MP3 的 C 命令行工具
+C CLI that exports WeChat 4.x voice messages to WAV/MP3 via read-only process memory capture
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
@@ -169,7 +161,7 @@ C 语言实现的表达式计算器
 
 #### 🗣️ [**nput-transcribe**](https://github.com/HestiaLab/nput-transcribe)
 
-Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
+Whisper transcription CLI: encoder on Intel NPU, decoder on CPU
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![Whisper](https://img.shields.io/badge/-Whisper-8A2BE2?style=flat-square)
@@ -183,7 +175,7 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 #### 🖌️ [**gl-draw-desktop**](https://github.com/HestiaLab/gl-draw-desktop)
 
-基于 GLFW 与 Nuklear 的 OpenGL 3.3 绘图桌面程序
+OpenGL 3.3 drawing desktop app built with GLFW and Nuklear
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![OpenGL 3.3](https://img.shields.io/badge/-OpenGL%203.3-5586A4?style=flat-square)
@@ -195,7 +187,7 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 #### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop) 🔒
 
-基于 Nuklear 即时模式 GUI 的 OpenGL 绘图画布
+OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 ![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
 ![OpenGL](https://img.shields.io/badge/-OpenGL-5586A4?style=flat-square)
@@ -206,10 +198,10 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 </tr>
 </table>
 
-## 📊 看板
+## 📊 Board
 
-- [**项目总看板**](https://github.com/orgs/HestiaLab/projects/2) — 跨仓库任务看板，含状态 / 仓库 / 优先级 / 分类 视图
+- [**Project board**](https://github.com/orgs/HestiaLab/projects/2) — cross-repository task board with Status / Repository / Priority / Category views
 
-## 📜 许可证
+## 📜 License
 
-各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 为 Apache-2.0，DbcView 与 Astrea 未声明许可证。
+Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard; DbcView and Astrea declare no license.
