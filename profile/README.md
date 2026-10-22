@@ -25,7 +25,7 @@ Named after **Hestia**, the Greek goddess of the hearth, HestiaLab is a personal
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas) 🔒
 
@@ -36,7 +36,7 @@ Blazor dockable workspace component library: tool panels, editor tabs, split vie
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea) 🔒
 
@@ -56,7 +56,7 @@ A collection of reusable components for Blazor applications
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### ✏️ [**Penelopa**](https://github.com/HestiaLab/Penelopa)
 
@@ -67,7 +67,7 @@ Blazor WASM primitive alignment editor built on Atlas.Blazor
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📄 [**DbcView**](https://github.com/HestiaLab/DbcView)
 
@@ -81,7 +81,7 @@ DBC file editor
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📋 [**CollabBoard**](https://github.com/HestiaLab/CollabBoard)
 
@@ -94,7 +94,7 @@ Collaborative board built with Vue 3, Redis, ASP.NET Core and MySQL
 ![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ Collaborative board built with Vue 3, Redis, ASP.NET Core and MySQL
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📐 [**c-project-standard**](https://github.com/HestiaLab/c-project-standard)
 
@@ -117,7 +117,7 @@ C project template plus the infrastructure that maintains the template itself
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📏 [**cloc**](https://github.com/HestiaLab/cloc)
 
@@ -130,7 +130,7 @@ C11 command-line tool that counts source lines across project directories
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🔢 [**calc-expr**](https://github.com/HestiaLab/calc-expr)
 
@@ -141,7 +141,7 @@ Expression calculator written in C
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📡 [**token-probe**](https://github.com/HestiaLab/token-probe)
 
@@ -154,7 +154,7 @@ C11 library and CLI that probes AI provider API quotas, period spend and remaini
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🎙️ [**wechat-voice-export**](https://github.com/HestiaLab/wechat-voice-export)
 
@@ -165,7 +165,7 @@ C CLI that exports WeChat 4.x voice messages to WAV/MP3 via read-only process me
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🗣️ [**nput-transcribe**](https://github.com/HestiaLab/nput-transcribe)
 
@@ -179,7 +179,7 @@ Whisper transcription CLI: encoder on Intel NPU, decoder on CPU
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🖌️ [**gl-draw-desktop**](https://github.com/HestiaLab/gl-draw-desktop)
 
@@ -191,7 +191,7 @@ OpenGL 3.3 drawing desktop app built with GLFW and Nuklear
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop) 🔒
 

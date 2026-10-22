@@ -25,7 +25,7 @@
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas) 🔒
 
@@ -36,7 +36,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea) 🔒
 
@@ -56,7 +56,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### ✏️ [**Penelopa**](https://github.com/HestiaLab/Penelopa)
 
@@ -67,7 +67,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📄 [**DbcView**](https://github.com/HestiaLab/DbcView)
 
@@ -81,7 +81,7 @@ DBC 文件编辑器
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📋 [**CollabBoard**](https://github.com/HestiaLab/CollabBoard)
 
@@ -94,7 +94,7 @@ DBC 文件编辑器
 ![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 </td>
 </tr>
@@ -106,7 +106,7 @@ DBC 文件编辑器
 
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📐 [**c-project-standard**](https://github.com/HestiaLab/c-project-standard)
 
@@ -117,7 +117,7 @@ C 项目模板，以及模板自身的基础设施
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📏 [**cloc**](https://github.com/HestiaLab/cloc)
 
@@ -130,7 +130,7 @@ C 项目模板，以及模板自身的基础设施
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🔢 [**calc-expr**](https://github.com/HestiaLab/calc-expr)
 
@@ -141,7 +141,7 @@ C 语言实现的表达式计算器
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📡 [**token-probe**](https://github.com/HestiaLab/token-probe)
 
@@ -154,7 +154,7 @@ C 语言实现的表达式计算器
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🎙️ [**wechat-voice-export**](https://github.com/HestiaLab/wechat-voice-export)
 
@@ -165,7 +165,7 @@ C 语言实现的表达式计算器
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🗣️ [**nput-transcribe**](https://github.com/HestiaLab/nput-transcribe)
 
@@ -179,7 +179,7 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 🖌️ [**gl-draw-desktop**](https://github.com/HestiaLab/gl-draw-desktop)
 
@@ -191,7 +191,7 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 ![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
-<td width="50%" valign="top">
+<td width="600" valign="top">
 
 #### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop) 🔒
 
