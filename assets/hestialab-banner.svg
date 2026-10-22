@@ -1,190 +1,125 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="HestiaLab">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="HestiaLab — the hearth">
   <defs>
-    <!-- 暗色氛围天空 -->
-    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#05070f"/>
-      <stop offset="28%" stop-color="#0a0f24"/>
-      <stop offset="55%" stop-color="#121633"/>
-      <stop offset="78%" stop-color="#1a1a40"/>
-      <stop offset="100%" stop-color="#221a4a"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#08080c"/>
+      <stop offset="45%" stop-color="#110d11"/>
+      <stop offset="100%" stop-color="#1b110e"/>
     </linearGradient>
-    <!-- 体积光（弱） -->
-    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#5ad8e8" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#5ad8e8" stop-opacity="0"/>
+    <radialGradient id="halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffb35c" stop-opacity="0.46"/>
+      <stop offset="34%" stop-color="#ff7a2f" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff5a1a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mouth" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0708"/>
+      <stop offset="45%" stop-color="#391306"/>
+      <stop offset="100%" stop-color="#8c3206"/>
     </linearGradient>
-    <!-- 中央水晶发光 -->
-    <radialGradient id="coreGlow" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#7ae0ff" stop-opacity="0.42"/>
-      <stop offset="35%" stop-color="#3a7ad0" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#3a7ad0" stop-opacity="0"/>
-    </radialGradient>
-    <!-- 柔和云雾（青） -->
-    <radialGradient id="fog" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#5ad8e8" stop-opacity="0.09"/>
-      <stop offset="60%" stop-color="#5ad8e8" stop-opacity="0.035"/>
-      <stop offset="100%" stop-color="#5ad8e8" stop-opacity="0"/>
-    </radialGradient>
-    <!-- 大气散射（紫，极低） -->
-    <radialGradient id="scatter" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#6a4a9a" stop-opacity="0.07"/>
-      <stop offset="100%" stop-color="#6a4a9a" stop-opacity="0"/>
-    </radialGradient>
-    <!-- 水晶 -->
-    <linearGradient id="crystal" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#e8f8ff"/>
-      <stop offset="35%" stop-color="#7ae0ff"/>
-      <stop offset="100%" stop-color="#2a6ad0"/>
+    <linearGradient id="stone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d2d31"/>
+      <stop offset="55%" stop-color="#241a1e"/>
+      <stop offset="100%" stop-color="#0f0a0d"/>
     </linearGradient>
+    <linearGradient id="curb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3630"/>
+      <stop offset="100%" stop-color="#150f11"/>
+    </linearGradient>
+    <radialGradient id="floorlight" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffa64d" stop-opacity="0.36"/>
+      <stop offset="100%" stop-color="#ff8a3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="fireglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#ffd08a" stop-opacity="0.62"/>
+      <stop offset="45%" stop-color="#ff8a2a" stop-opacity="0.26"/>
+      <stop offset="100%" stop-color="#ff6a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.45" r="0.72">
+      <stop offset="46%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.64"/>
+    </radialGradient>
   </defs>
 
-  <!-- 天空 -->
-  <rect width="1200" height="400" fill="url(#sky)"/>
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <ellipse cx="600" cy="262" rx="470" ry="262" fill="url(#halo)"/>
 
-  <!-- 体积光（弱） -->
-  <polygon points="820,0 700,400 940,400" fill="url(#beam)"/>
-  <polygon points="430,0 340,400 520,400" fill="url(#beam)" opacity="0.5"/>
+  <!-- floor -->
+  <rect x="0" y="338" width="1200" height="62" fill="#0c080a"/>
+  <path d="M0 338 C 200 334, 400 342, 600 339 C 800 336, 1000 344, 1200 340 L 1200 344 L 0 344 Z" fill="#251a1b" opacity="0.85"/>
+  <ellipse cx="600" cy="350" rx="300" ry="22" fill="url(#floorlight)"/>
 
-  <!-- 星点（6，克制） -->
-  <g fill="#b8d8ff">
-    <circle cx="120" cy="52" r="1.1" opacity="0.4"/>
-    <circle cx="300" cy="36" r="0.9" opacity="0.35"/>
-    <circle cx="760" cy="46" r="1.0" opacity="0.35"/>
-    <circle cx="1020" cy="58" r="1.1" opacity="0.4"/>
-    <circle cx="1140" cy="32" r="0.8" opacity="0.3"/>
-    <circle cx="640" cy="28" r="0.9" opacity="0.35"/>
+  <!-- hearth niche -->
+  <path d="M 450 338 L 450 250 A 150 150 0 0 1 750 250 L 750 338 Z" fill="url(#mouth)"/>
+  <path d="M 418 338 L 418 250 A 182 182 0 0 1 782 250 L 782 338" fill="none" stroke="url(#stone)" stroke-width="34" stroke-linejoin="round"/>
+  <path d="M 466 338 L 466 250 A 134 134 0 0 1 734 250 L 734 338" fill="none" stroke="#ff9a4d" stroke-width="1.8" opacity="0.32"/>
+
+  <!-- stone seams -->
+  <g stroke="#08050a" stroke-width="1.4" opacity="0.5">
+    <path d="M 466 250 L 434 250"/>
+    <path d="M 502 162 L 478 141"/>
+    <path d="M 556 118 L 545 86"/>
+    <path d="M 644 118 L 655 86"/>
+    <path d="M 698 162 L 722 141"/>
+    <path d="M 734 250 L 766 250"/>
+    <path d="M 418 270 L 450 270"/>
+    <path d="M 418 300 L 450 300"/>
+    <path d="M 418 326 L 450 326"/>
+    <path d="M 750 270 L 782 270"/>
+    <path d="M 750 300 L 782 300"/>
+    <path d="M 750 326 L 782 326"/>
   </g>
 
-  <!-- 远景山脉（淡） -->
-  <path d="M 0 308 C 140 296, 300 312, 460 302 C 620 292, 780 310, 940 302 C 1060 296, 1140 304, 1200 300 L 1200 340 L 0 340 Z" fill="#0b0e20" opacity="0.6"/>
+  <!-- fire light -->
+  <ellipse cx="600" cy="268" rx="168" ry="146" fill="url(#fireglow)"/>
 
-  <!-- 远景巫师塔（网络基础设施剪影） -->
+  <!-- flames -->
   <g>
-    <!-- 塔A（左） -->
-    <path d="M 130 300 L 130 168 L 150 128 L 170 168 L 170 300 Z" fill="#0c0f24"/>
-    <path d="M 150 128 L 150 112" stroke="#0c0f24" stroke-width="3"/>
-    <g fill="#5ad8e8" opacity="0.5">
-      <rect x="143" y="186" width="4" height="7"/>
-      <rect x="143" y="212" width="4" height="7"/>
-    </g>
-    <!-- 塔B（魔法阵后方，连入网络） -->
-    <path d="M 396 300 L 396 150 L 410 100 L 424 150 L 424 300 Z" fill="#0c0f24"/>
-    <path d="M 410 100 L 410 84" stroke="#0c0f24" stroke-width="3"/>
-    <g fill="#5ad8e8" opacity="0.55">
-      <rect x="403" y="168" width="4" height="7"/>
-      <rect x="403" y="194" width="4" height="7"/>
-      <rect x="403" y="220" width="4" height="7"/>
-    </g>
-    <!-- 塔C（右） -->
-    <path d="M 926 300 L 926 150 L 940 108 L 954 150 L 954 300 Z" fill="#0c0f24"/>
-    <path d="M 940 108 L 940 90" stroke="#0c0f24" stroke-width="3"/>
-    <g fill="#7ae0ff" opacity="0.5">
-      <rect x="933" y="172" width="4" height="7"/>
-      <rect x="933" y="200" width="4" height="7"/>
-    </g>
-    <!-- 塔D（最右，远景） -->
-    <path d="M 1068 300 L 1068 196 L 1080 168 L 1092 196 L 1092 300 Z" fill="#0c0f24"/>
-    <g fill="#b06ae0" opacity="0.45">
-      <rect x="1073" y="216" width="4" height="6"/>
-      <rect x="1073" y="240" width="4" height="6"/>
-    </g>
+    <path d="M 592 118 C 620 170 664 200 666 242 C 670 292 638 340 600 340 C 562 340 534 292 538 242 C 540 200 566 170 592 118 Z" fill="#bf3f16" opacity="0.4"/>
+    <path d="M 600 168 C 618 204 646 228 647 258 C 649 294 626 326 600 326 C 574 326 551 294 553 258 C 554 228 582 204 600 168 Z" fill="#ff7a18" opacity="0.82"/>
+    <path d="M 600 214 C 611 240 626 256 626 274 C 626 298 614 314 600 314 C 586 314 574 298 574 274 C 574 256 589 240 600 214 Z" fill="#ffc24d" opacity="0.96"/>
+    <path d="M 600 254 C 606 268 613 276 613 288 C 613 302 607 309 600 309 C 593 309 587 302 587 288 C 587 276 594 268 600 254 Z" fill="#fff8e2"/>
+    <path d="M 552 336 C 542 302 552 274 566 260 C 559 292 564 316 578 336 Z" fill="#ff8a2a" opacity="0.5"/>
+    <path d="M 648 336 C 658 300 648 272 634 258 C 641 292 636 316 622 336 Z" fill="#ff8a2a" opacity="0.5"/>
+    <path d="M 678 332 C 686 306 678 286 668 274 C 666 296 668 314 662 332 Z" fill="#ffab4d" opacity="0.3"/>
+    <path d="M 522 332 C 514 306 522 288 532 276 C 534 298 532 314 538 332 Z" fill="#ffab4d" opacity="0.28"/>
   </g>
 
-  <!-- 大气散射与云雾（右侧呼吸区，多层极低透明度） -->
-  <ellipse cx="700" cy="180" rx="260" ry="120" fill="url(#scatter)"/>
-  <ellipse cx="680" cy="250" rx="230" ry="100" fill="url(#fog)"/>
-  <ellipse cx="740" cy="150" rx="180" ry="80" fill="url(#fog)"/>
-
-  <!-- 能量流网络 -->
-  <g fill="none">
-    <!-- 塔A → 左岛 -->
-    <path d="M 150 200 C 200 212, 240 226, 278 232" stroke="#5ad8e8" stroke-width="1.0" opacity="0.35"/>
-    <!-- 左岛 → 魔法阵左下节点 -->
-    <path d="M 292 232 C 315 235, 330 233, 341 230" stroke="#4a8aff" stroke-width="1.0" opacity="0.4"/>
-    <!-- 右岛 → 塔C -->
-    <path d="M 900 236 C 916 236, 928 226, 940 214" stroke="#4a8aff" stroke-width="0.9" opacity="0.38"/>
+  <!-- logs -->
+  <g stroke="#2b1310" stroke-width="11" stroke-linecap="round" fill="none">
+    <path d="M 528 340 L 672 326"/>
+    <path d="M 536 324 L 664 342"/>
+  </g>
+  <g stroke="#ff9a3d" stroke-width="2.2" stroke-linecap="round" fill="none" opacity="0.6">
+    <path d="M 548 338 L 616 329"/>
+    <path d="M 580 326 L 648 338"/>
   </g>
 
-  <!-- 主连接：魔法阵右下节点 → 右岛（第二视觉焦点，光而非粗） -->
-  <g fill="none">
-    <path d="M 479 230 C 620 242, 770 246, 878 234" stroke="#5ad8e8" stroke-width="5" opacity="0.08"/>
-    <path d="M 479 230 C 620 242, 770 246, 878 234" stroke="#5ad8e8" stroke-width="1.3" opacity="0.55"/>
-    <path d="M 479 230 C 620 242, 770 246, 878 234" stroke="#d8f4ff" stroke-width="0.7" opacity="0.7"/>
+  <!-- hearth curb -->
+  <path d="M 404 338 L 796 338 L 788 352 L 412 352 Z" fill="url(#curb)"/>
+  <path d="M 404 338 L 796 338" stroke="#ff9a4d" stroke-width="1.6" opacity="0.35"/>
+
+  <!-- embers -->
+  <g fill="#ffb35c">
+    <circle cx="598" cy="96" r="2.3" opacity="0.68"/>
+    <circle cx="576" cy="74" r="1.6" opacity="0.48"/>
+    <circle cx="621" cy="58" r="1.9" opacity="0.52"/>
+    <circle cx="558" cy="100" r="1.3" opacity="0.4"/>
+    <circle cx="639" cy="92" r="1.4" opacity="0.42"/>
+    <circle cx="589" cy="38" r="1.1" opacity="0.3"/>
+    <circle cx="622" cy="26" r="0.9" opacity="0.24"/>
+    <circle cx="662" cy="68" r="1.1" opacity="0.26"/>
+    <circle cx="536" cy="74" r="1.0" opacity="0.24"/>
   </g>
-  <!-- 主连接上的数据光点（移动感） -->
-  <g fill="#d8f4ff">
-    <circle cx="618" cy="241" r="2.2" opacity="0.9"/>
-    <circle cx="718" cy="243" r="1.5" opacity="0.7"/>
-  </g>
-  <!-- 次连接上的光点 -->
-  <g fill="#d8f4ff">
-    <circle cx="320" cy="234" r="1.4" opacity="0.6"/>
-    <circle cx="210" cy="218" r="1.3" opacity="0.55"/>
+  <g fill="#ff8a3d">
+    <circle cx="607" cy="46" r="1.1" opacity="0.32"/>
+    <circle cx="549" cy="50" r="0.8" opacity="0.2"/>
+    <circle cx="650" cy="40" r="0.8" opacity="0.2"/>
   </g>
 
-  <!-- 左浮空岛（中景） -->
-  <g>
-    <path d="M 200 235 L 360 235 L 380 250 L 332 274 L 280 294 L 228 274 L 180 250 Z" fill="#0a0c1e"/>
-    <path d="M 200 235 L 280 229 L 360 235 L 310 243 L 250 243 Z" fill="#141838"/>
-    <path d="M 280 199 L 292 229 L 280 243 L 268 229 Z" fill="url(#crystal)" opacity="0.85"/>
-    <path d="M 280 199 L 292 229 L 280 229 L 268 229 Z" fill="#d8f4ff" opacity="0.45"/>
+  <!-- distant hearths -->
+  <g fill="#ff9a4d">
+    <circle cx="206" cy="246" r="2.6" opacity="0.18"/>
+    <circle cx="994" cy="240" r="2.6" opacity="0.16"/>
   </g>
 
-  <!-- 右浮空岛（中景，稍远） -->
-  <g>
-    <path d="M 820 235 L 980 235 L 1000 250 L 952 274 L 900 294 L 848 274 L 800 250 Z" fill="#0a0c1e"/>
-    <path d="M 820 235 L 900 229 L 980 235 L 930 243 L 870 243 Z" fill="#141838"/>
-    <path d="M 900 199 L 912 229 L 900 243 L 888 229 Z" fill="url(#crystal)" opacity="0.85"/>
-    <path d="M 900 199 L 912 229 L 900 229 L 888 229 Z" fill="#d8f4ff" opacity="0.45"/>
-  </g>
-
-  <!-- 中央魔法阵（网络拓扑，偏左主视觉节点） -->
-  <g transform="translate(410,190)">
-    <!-- 中心光晕 -->
-    <circle r="150" fill="url(#coreGlow)"/>
-    <!-- 外环 -->
-    <circle r="110" fill="none" stroke="#4a8aff" stroke-width="1.1" opacity="0.6"/>
-    <!-- 内接六边形 -->
-    <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40" fill="none" stroke="#7ae0ff" stroke-width="0.8" opacity="0.48"/>
-    <!-- 六芒星 -->
-    <polygon points="0,-74 64,37 -64,37" fill="none" stroke="#b06ae0" stroke-width="0.8" opacity="0.42"/>
-    <polygon points="0,74 64,-37 -64,-37" fill="none" stroke="#b06ae0" stroke-width="0.8" opacity="0.42"/>
-    <!-- 内圈 -->
-    <circle r="30" fill="none" stroke="#5ad8e8" stroke-width="0.7" opacity="0.5"/>
-    <!-- 6 节点（层级：右下最亮→顶→左下→底→右上/左上） -->
-    <g fill="#d8f4ff">
-      <circle cx="69" cy="40" r="3.6" opacity="1.0"/>
-      <circle cx="0" cy="-80" r="3.2" opacity="0.95"/>
-      <circle cx="-69" cy="40" r="3.0" opacity="0.9"/>
-      <circle cx="0" cy="80" r="2.8" opacity="0.85"/>
-      <circle cx="69" cy="-40" r="2.6" opacity="0.78"/>
-      <circle cx="-69" cy="-40" r="2.6" opacity="0.78"/>
-    </g>
-    <!-- 走线（直角，从节点延伸出阵，有方向） -->
-    <g fill="none" stroke="#5ad8e8" stroke-width="0.85" opacity="0.5">
-      <path d="M 0 -80 L 0 -124 L -14 -124 L -14 -60"/>
-      <path d="M 0 80 L 0 106"/>
-    </g>
-    <g fill="none" stroke="#4a8aff" stroke-width="0.85" opacity="0.45">
-      <path d="M -69 40 L -100 40"/>
-      <path d="M 69 40 L 100 40 L 100 20"/>
-    </g>
-    <!-- 符文（古老编程语言，微弱不规则） -->
-    <g stroke="#7ae0ff" stroke-width="0.9" opacity="0.5" fill="none">
-      <polygon points="-67,-57 -61,-47 -73,-47"/>
-      <path d="M 67 -57 L 73 -47"/>
-      <path d="M -57 63 c -3 3, -3 7, 0 10 c 3 3, 3 7, 0 10"/>
-      <line x1="61" y1="63" x2="73" y2="63"/>
-    </g>
-    <!-- 中央水晶（第一视觉焦点） -->
-    <path d="M 0 -20 L 10 0 L 0 20 L -10 0 Z" fill="url(#crystal)" opacity="0.95"/>
-    <path d="M 0 -20 L 10 0 L 0 0 L -10 0 Z" fill="#d8f4ff" opacity="0.5"/>
-    <line x1="0" y1="-16" x2="0" y2="16" stroke="#e8f8ff" stroke-width="0.8" opacity="0.7"/>
-  </g>
-
-  <!-- 云海（底部） -->
-  <g>
-    <path d="M 0 356 C 140 340, 280 366, 420 354 C 560 342, 700 368, 840 356 C 980 344, 1100 364, 1200 354 L 1200 400 L 0 400 Z" fill="#0a0c1e"/>
-    <path d="M 0 376 C 160 364, 320 384, 480 374 C 640 364, 800 386, 960 376 C 1080 368, 1150 374, 1200 372 L 1200 400 L 0 400 Z" fill="#070814"/>
-  </g>
+  <rect width="1200" height="400" fill="url(#vignette)"/>
 </svg>
