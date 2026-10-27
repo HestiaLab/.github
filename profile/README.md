@@ -90,6 +90,15 @@ DBC 文件编辑器
 </td>
 <td width="600" valign="top">
 
+#### 🐋 [**WhalePod**](https://github.com/HestiaLab/WhalePod)
+
+面向 AI 工具使用者的邀请制技术社区，收录可复现的实测记录与可直接复制的产物
+
+![Blazor Web App](https://img.shields.io/badge/-Blazor%20Web%20App-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
 </td>
 </tr>
 </table>
@@ -204,4 +213,4 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 ## 📜 许可证
 
-各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 为 Apache-2.0，DbcView 与 Astrea 未声明许可证。
+各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 为 Apache-2.0，DbcView、Astrea 与 WhalePod 未声明许可证。
