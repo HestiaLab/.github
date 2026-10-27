@@ -90,6 +90,15 @@ Collaborative board built with Vue 3, Redis, ASP.NET Core and MySQL
 </td>
 <td width="600" valign="top">
 
+#### 🐋 [**WhalePod**](https://github.com/HestiaLab/WhalePod)
+
+Invite-only tech community for AI tool users, spotlighting reproducible test records and copy-ready artifacts
+
+![Blazor Web App](https://img.shields.io/badge/-Blazor%20Web%20App-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
 </td>
 </tr>
 </table>
@@ -204,4 +213,4 @@ OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 ## 📜 License
 
-Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard; DbcView and Astrea declare no license.
+Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard; DbcView, Astrea and WhalePod declare no license.
