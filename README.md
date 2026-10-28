@@ -70,7 +70,7 @@ DBC file editor
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
 ![DBC](https://img.shields.io/badge/-DBC-orange?style=flat-square)
-![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 </tr>
@@ -213,4 +213,4 @@ OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 ## 📜 License
 
-Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard; DbcView, Astrea and WhalePod declare no license.
+Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard and DbcView; Astrea and WhalePod declare no license.
