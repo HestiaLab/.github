@@ -70,7 +70,7 @@ DBC 文件编辑器
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
 ![DBC](https://img.shields.io/badge/-DBC-orange?style=flat-square)
-![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 </tr>
@@ -213,4 +213,4 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 ## 📜 许可证
 
-各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 为 Apache-2.0，DbcView、Astrea 与 WhalePod 未声明许可证。
+各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 与 DbcView 为 Apache-2.0，Astrea 与 WhalePod 未声明许可证。
