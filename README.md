@@ -23,7 +23,7 @@ Named after **Hestia**, the Greek goddess of the hearth, HestiaLab is a personal
 <tr>
 <td width="600" valign="top">
 
-#### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas) 🔒
+#### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas)
 
 Blazor dockable workspace component library: tool panels, editor tabs, split views, drag-and-drop, and layout persistence
 
@@ -34,13 +34,13 @@ Blazor dockable workspace component library: tool panels, editor tabs, split vie
 </td>
 <td width="600" valign="top">
 
-#### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea) 🔒
+#### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea)
 
 A collection of reusable components for Blazor applications
 
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
-![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
 </tr>
@@ -98,6 +98,34 @@ Invite-only tech community for AI tool users, spotlighting reproducible test rec
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square)
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="600" valign="top">
+
+#### 🌐 [**PersonalPortfolio**](https://github.com/HestiaLab/PersonalPortfolio) 🔒
+
+Personal website built with Blazor WebAssembly, ASP.NET Core and SQLite
+
+![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
+</td>
+<td width="600" valign="top">
+
+#### 👁️ [**fatigue-guard**](https://github.com/HestiaLab/fatigue-guard)
+
+Offline camera-based fatigue monitoring CLI that scores blink rate and PERCLOS and alerts in the terminal
+
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![.NET 8](https://img.shields.io/badge/-.NET%208-512BD4?style=flat-square)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square)
+![ONNX Runtime](https://img.shields.io/badge/-ONNX%20Runtime-005CED?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 </tr>
@@ -194,7 +222,7 @@ OpenGL 3.3 drawing desktop app built with GLFW and Nuklear
 </td>
 <td width="600" valign="top">
 
-#### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop) 🔒
+#### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop)
 
 OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
@@ -213,4 +241,4 @@ OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 ## 📜 License
 
-Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard and DbcView; Astrea and WhalePod declare no license.
+Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard, DbcView and fatigue-guard; PersonalPortfolio and WhalePod declare no license.
