@@ -23,7 +23,7 @@
 <tr>
 <td width="600" valign="top">
 
-#### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas) 🔒
+#### 🧭 [**Atlas**](https://github.com/HestiaLab/Atlas)
 
 Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割视图、拖拽与布局持久化
 
@@ -34,13 +34,13 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 </td>
 <td width="600" valign="top">
 
-#### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea) 🔒
+#### 🧩 [**Astrea**](https://github.com/HestiaLab/Astrea)
 
 面向 Blazor 应用的可复用组件集合
 
 ![Blazor](https://img.shields.io/badge/-Blazor-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
-![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 
 </td>
 </tr>
@@ -98,6 +98,34 @@ DBC 文件编辑器
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
 ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square)
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td width="600" valign="top">
+
+#### 🌐 [**PersonalPortfolio**](https://github.com/HestiaLab/PersonalPortfolio) 🔒
+
+基于 Blazor WebAssembly + ASP.NET Core + SQLite 的个人网站
+
+![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
+![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![SQLite](https://img.shields.io/badge/-SQLite-003B57?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
+
+</td>
+<td width="600" valign="top">
+
+#### 👁️ [**fatigue-guard**](https://github.com/HestiaLab/fatigue-guard)
+
+本地离线的摄像头疲劳监测命令行工具，按眨眼率与 PERCLOS 在终端分级提示疲劳
+
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![.NET 8](https://img.shields.io/badge/-.NET%208-512BD4?style=flat-square)
+![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square)
+![ONNX Runtime](https://img.shields.io/badge/-ONNX%20Runtime-005CED?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 </tr>
@@ -194,7 +222,7 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 </td>
 <td width="600" valign="top">
 
-#### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop) 🔒
+#### 📊 [**gl-diagram-desktop**](https://github.com/HestiaLab/gl-diagram-desktop)
 
 基于 Nuklear 即时模式 GUI 的 OpenGL 绘图画布
 
@@ -213,4 +241,4 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 ## 📜 许可证
 
-各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard 与 DbcView 为 Apache-2.0，Astrea 与 WhalePod 未声明许可证。
+各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard、DbcView 与 fatigue-guard 为 Apache-2.0，PersonalPortfolio 与 WhalePod 未声明许可证。
