@@ -29,7 +29,7 @@ Blazor dockable workspace component library: tool panels, editor tabs, split vie
 
 ![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
-![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 <td width="600" valign="top">
@@ -77,19 +77,6 @@ DBC file editor
 <tr>
 <td width="600" valign="top">
 
-#### 📋 [**CollabBoard**](https://github.com/HestiaLab/CollabBoard)
-
-Collaborative board built with Vue 3, Redis, ASP.NET Core and MySQL
-
-![Vue 3](https://img.shields.io/badge/-Vue%203-4FC08D?style=flat-square)
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square)
-![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
-
-</td>
-<td width="600" valign="top">
-
 #### 🐋 [**WhalePod**](https://github.com/HestiaLab/WhalePod)
 
 Invite-only tech community for AI tool users, spotlighting reproducible test records and copy-ready artifacts
@@ -100,8 +87,6 @@ Invite-only tech community for AI tool users, spotlighting reproducible test rec
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="600" valign="top">
 
 #### 🌐 [**PersonalPortfolio**](https://github.com/HestiaLab/PersonalPortfolio) 🔒
@@ -115,6 +100,8 @@ Personal website built with Blazor WebAssembly, ASP.NET Core and SQLite
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="600" valign="top">
 
 #### 👁️ [**fatigue-guard**](https://github.com/HestiaLab/fatigue-guard)
@@ -126,6 +113,17 @@ Offline camera-based fatigue monitoring CLI that scores blink rate and PERCLOS a
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square)
 ![ONNX Runtime](https://img.shields.io/badge/-ONNX%20Runtime-005CED?style=flat-square)
 ![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
+
+</td>
+<td width="600" valign="top">
+
+#### 🔍 [**ActionLens**](https://github.com/HestiaLab/ActionLens)
+
+Static preflight for GitHub Actions workflows: see what a trigger will do before it runs
+
+![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
 </tr>
@@ -233,6 +231,19 @@ OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 </td>
 </tr>
+<tr>
+<td width="600" valign="top">
+
+#### 📥 [**repo-clone**](https://github.com/HestiaLab/repo-clone)
+
+C11 CLI that clones git repositories concurrently from JSON manifests with live progress
+
+![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
+![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+
+</td>
+</tr>
 </table>
 
 ## 📊 Board
@@ -241,4 +252,4 @@ OpenGL drawing canvas with a Nuklear immediate-mode GUI
 
 ## 📜 License
 
-Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for CollabBoard, DbcView and fatigue-guard; PersonalPortfolio and WhalePod declare no license.
+Each project is licensed as stated in its own LICENSE file: MIT for most, Apache-2.0 for Atlas, DbcView and fatigue-guard; PersonalPortfolio, WhalePod and ActionLens declare no license.

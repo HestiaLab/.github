@@ -29,7 +29,7 @@ Blazor 可停靠工作区组件库：工具面板、编辑器选项卡、分割�
 
 ![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
 ![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
-![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
 
 </td>
 <td width="600" valign="top">
@@ -77,19 +77,6 @@ DBC 文件编辑器
 <tr>
 <td width="600" valign="top">
 
-#### 📋 [**CollabBoard**](https://github.com/HestiaLab/CollabBoard)
-
-基于 Vue 3 + Redis + ASP.NET Core + MySQL 的协作看板
-
-![Vue 3](https://img.shields.io/badge/-Vue%203-4FC08D?style=flat-square)
-![ASP.NET Core](https://img.shields.io/badge/-ASP.NET%20Core-512BD4?style=flat-square)
-![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square)
-![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square)
-![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
-
-</td>
-<td width="600" valign="top">
-
 #### 🐋 [**WhalePod**](https://github.com/HestiaLab/WhalePod)
 
 面向 AI 工具使用者的邀请制技术社区，收录可复现的实测记录与可直接复制的产物
@@ -100,8 +87,6 @@ DBC 文件编辑器
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
-</tr>
-<tr>
 <td width="600" valign="top">
 
 #### 🌐 [**PersonalPortfolio**](https://github.com/HestiaLab/PersonalPortfolio) 🔒
@@ -115,6 +100,8 @@ DBC 文件编辑器
 ![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
+</tr>
+<tr>
 <td width="600" valign="top">
 
 #### 👁️ [**fatigue-guard**](https://github.com/HestiaLab/fatigue-guard)
@@ -126,6 +113,17 @@ DBC 文件编辑器
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat-square)
 ![ONNX Runtime](https://img.shields.io/badge/-ONNX%20Runtime-005CED?style=flat-square)
 ![Apache-2.0](https://img.shields.io/badge/license-Apache--2.0-blue?style=flat-square)
+
+</td>
+<td width="600" valign="top">
+
+#### 🔍 [**ActionLens**](https://github.com/HestiaLab/ActionLens)
+
+GitHub Actions 工作流静态预检：不执行任何步骤，提前看清某次触发会做什么
+
+![Blazor WASM](https://img.shields.io/badge/-Blazor%20WASM-512BD4?style=flat-square)
+![C#](https://img.shields.io/badge/-C%23-239120?style=flat-square)
+![No license](https://img.shields.io/badge/license-none-lightgrey?style=flat-square)
 
 </td>
 </tr>
@@ -233,6 +231,19 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 </td>
 </tr>
+<tr>
+<td width="600" valign="top">
+
+#### 📥 [**repo-clone**](https://github.com/HestiaLab/repo-clone)
+
+读取 JSON 清单并发克隆 git 仓库的 C11 命令行工具，实时显示进度
+
+![C11](https://img.shields.io/badge/-C11-283593?style=flat-square)
+![CMake](https://img.shields.io/badge/-CMake-064F8C?style=flat-square)
+![MIT](https://img.shields.io/badge/license-MIT-green?style=flat-square)
+
+</td>
+</tr>
 </table>
 
 ## 📊 看板
@@ -241,4 +252,4 @@ Whisper 语音转写命令行工具：编码器跑 Intel NPU，解码器跑 CPU
 
 ## 📜 许可证
 
-各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，CollabBoard、DbcView 与 fatigue-guard 为 Apache-2.0，PersonalPortfolio 与 WhalePod 未声明许可证。
+各项目的许可证以其仓库内的 LICENSE 文件为准：多数为 MIT，Atlas、DbcView 与 fatigue-guard 为 Apache-2.0，PersonalPortfolio、WhalePod 与 ActionLens 未声明许可证。
